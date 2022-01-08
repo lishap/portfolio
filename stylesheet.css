@@ -1,0 +1,120 @@
+.icons{
+  margin-right: 125px;
+  margin-left: 125px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.icons img{
+  width: 375px;
+  height: 375px;
+  margin-bottom: 30px;
+  opacity: 25%;
+}
+
+ .break{
+  flex-basis: 100%;
+  height: 0;
+}
+
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.name {
+  margin-left: 120px;
+  margin-bottom: 30px;
+
+  font-family: 'VT323';
+  font-size: 64px;
+  color: transparent;
+  letter-spacing: -12px;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.contact{
+  font-family: 'VT323';
+  font-size: 48px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  margin-right: 120px;
+  margin-bottom: 30px;
+}
+
+.contact:hover {
+  color: black;
+}
+
+.projectTextTop{
+  font-family: 'VT323', monospace;
+  font-size: 48px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-10%, -50%);
+}
+
+.projectTextBottom{
+  font-family: 'VT323', monospace;
+  font-size: 48px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-0%, -50%);
+}
+
+.caseOfTheMissingSlice{
+  position: relative;
+  text-align: center;
+}
+
+.projectTextTop:hover {
+  color: black;
+}
+
+.projectTextBottom:hover {
+  color: black;
+}
+
+
+
+.highSchoolPartySimulator{
+  position: relative;
+  text-align: center;
+}
+
+.pukeFestPosters{
+  position: relative;
+  text-align: center;
+}
+
+.songLookback{
+  position: relative;
+  text-align: center;
+}
+
+.what2watch{
+  position: relative;
+  text-align: center;
+}
+
+.nineteenYearOldChineseGirl{
+  position: relative;
+  text-align: center;
+}
