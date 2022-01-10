@@ -55,6 +55,10 @@
   color: black;
 }
 
+a {
+    all: unset;
+}
+
 .projectTextTop{
   font-family: 'VT323', monospace;
   font-size: 48px;

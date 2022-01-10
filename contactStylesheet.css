@@ -1,0 +1,69 @@
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.name {
+  margin-left: 120px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-family: 'VT323';
+  font-size: 64px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.contact{
+  font-family: 'VT323';
+  font-size: 48px;
+  color: transparent;
+  letter-spacing: -9.5px;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  margin-right: 130px;
+  margin-bottom: 30px;
+}
+
+.name:hover {
+  color: black;
+}
+
+.about{
+  display: flex;
+  align-content: space-around;
+  margin-right: 130px;
+  font-size: 24px;
+}
+
+.profilePicture{
+  width: 375px;
+  height: 375px;
+
+  margin-left: 126px;
+  margin-right: 26px;
+}
+.aboutText{
+  flex-direction: column;
+}
+
+.socialIcons{
+  align-items: baseline;
+}
+
+.socialIcons img{
+  margin-right: 4px;
+}
+
+a {
+    all: unset;
+}
+
+
+p{
+  font-family: 'Work Sans';
+}
