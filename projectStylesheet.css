@@ -1,0 +1,68 @@
+
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.name {
+  margin-left: 120px;
+  margin-bottom: 30px;
+
+  font-family: 'VT323';
+  font-size: 64px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.contact{
+  font-family: 'VT323';
+  font-size: 48px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  margin-right: 120px;
+  margin-bottom: 30px;
+}
+
+.rainbowTitle{
+  margin-bottom: 30px;
+
+  font-family: 'VT323';
+  font-size: 48px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  display: center;
+
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+  color: black;
+}
+
+p{
+  font-family: 'Work Sans';
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.dragme{
+    position:relative;
+    width: 270px;
+    height: 203px;
+    cursor: move;
+  }
+  
