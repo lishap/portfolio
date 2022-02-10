@@ -39,7 +39,7 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
-  display: center;
+  text-align: center
 
 }
 
@@ -71,3 +71,12 @@ img {
     width: 25%;
     height: auto;
   }
+
+#stamp{
+  left: 100px;
+  top: 10px;
+}
+
+#poster1{
+  left: 265px;
+  top: 382px;
