@@ -59,10 +59,15 @@ p{
   font-size: 18px;
 }
 
+img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
 .dragme{
     position:relative;
-    width: 270px;
-    height: 203px;
     cursor: move;
+    width: 25%;
+    height: auto;
   }
-  
