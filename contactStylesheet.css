@@ -7,9 +7,9 @@
 .name {
   margin-left: 120px;
   margin-bottom: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-family: 'VT323';
-  font-size: 64px;
+  font-size: 48px;
   color: transparent;
 
   -webkit-text-stroke-width: 1px;

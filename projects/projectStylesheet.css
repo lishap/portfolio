@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 
   font-family: 'VT323';
-  font-size: 64px;
+  font-size: 48px;
   color: transparent;
 
   -webkit-text-stroke-width: 1px;
@@ -39,7 +39,8 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
-  text-align: center
+  text-align: center;
+  transform: translate(-10%, -0%);
 
 }
 
@@ -66,17 +67,17 @@ img {
 }
 
 .dragme{
-    position:relative;
+    position:absolute;
     cursor: move;
     width: 25%;
     height: auto;
   }
 
 #stamp{
-  left: 100px;
-  top: 10px;
+  left: 125px;
+  top: 200px;
 }
 
-#poster1{
-  left: 265px;
-  top: 382px;
+#poster{
+  left: 900px;
+  top: 130px;
