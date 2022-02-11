@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'VT323';
+}
+
+canvas {
+    display: block;
+}
+
+img {
+    display:none;
+}
+
+.container{
+    margin-top: 125px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.track-artist-name{
+    font-size: 30px;
+    text-align: center;
+}
+
+.bpm{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.p5Canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: Transparent;
+    font-family:'VT323';
+    font-size: 30px;
+    text-align: center;
+    border:none;
+    outline:none;
+}
+
+button:hover{
+    color: #663366;
+    text-decoration: underline;
+
+}
+
+#discoButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#discoBall{
+    display: none;
+}
+
+
+@media only screen and (max-width : 480px) {
+    .track-artist-name{
+        font-size: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button{
+        display:none;
+    }
+}
