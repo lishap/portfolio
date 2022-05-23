@@ -60,11 +60,12 @@ a:hover {
 }
 
 p{
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   margin-left: 125px;
   margin-right: 125px;
   margin-top: 80px;
   font-size: 18px;
+  max-width: 1500px;
 }
 
 

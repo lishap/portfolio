@@ -3,7 +3,7 @@
   margin-left: 125px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -12,8 +12,13 @@
   width: 375px;
   height: 375px;
   margin-bottom: 30px;
-  opacity: 25%;
+  opacity: 30%;
 }
+
+.icons img:hover {
+  opacity: 50%;
+}
+
 
  .break{
   flex-basis: 100%;
@@ -114,22 +119,27 @@ a {
 .gobyworld{
   position: relative;
   text-align: center;
+  cursor: pointer;
 }
 
 .projectTextTop:hover {
   color: black;
+  cursor: pointer;
 }
 
 .projectTextTopArt:hover {
   color: black;
+  cursor: pointer;
 }
 
 .projectTextGoby:hover {
   color: black;
+  cursor: pointer;
 }
 
 .projectTextBottom:hover {
   color: black;
+  cursor: pointer;
 }
 
 .highSchoolPartySimulator{
