@@ -16,6 +16,11 @@
   -webkit-text-stroke-color: black;
 }
 
+.link {
+  text-decoration: underline;
+   color: blue;
+}
+
 .contact{
   font-family: 'VT323';
   font-size: 48px;
@@ -37,7 +42,7 @@
   display: flex;
   align-content: space-around;
   margin-right: 130px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .profilePicture{
