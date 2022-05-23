@@ -100,6 +100,11 @@ a {
   text-align: center;
 }
 
+.gobyworld{
+  position: relative;
+  text-align: center;
+}
+
 .projectTextTop:hover {
   color: black;
 }
