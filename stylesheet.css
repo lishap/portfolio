@@ -71,6 +71,17 @@ a {
   transform: translate(-10%, -50%);
 }
 
+.projectTextGoby{
+  font-family: 'VT323', monospace;
+  font-size: 48px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
 .projectTextTopArt{
   font-family: 'VT323', monospace;
   font-size: 48px;
@@ -110,6 +121,10 @@ a {
 }
 
 .projectTextTopArt:hover {
+  color: black;
+}
+
+.projectTextGoby:hover {
   color: black;
 }
 
