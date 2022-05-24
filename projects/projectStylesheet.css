@@ -9,6 +9,9 @@
   justify-content: space-between;
   z-index: 6;
 }
+.draggable{
+  z-index: -1;
+}
 
 .name {
   margin-left: 120px;
@@ -93,7 +96,6 @@ p{
     cursor: move;
     width: 25%;
     height: auto;
-    z-index: 1;
   }
 
 footer{
