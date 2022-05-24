@@ -1,3 +1,7 @@
+@font-face {
+  font-family:"ApercuMono";
+  src: url("https://lishap.github.io/portfolio/projects/ApercuMono.woff");
+}
 
 .header{
   display: flex;
@@ -60,7 +64,7 @@ a:hover {
 }
 
 p{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'ApercuMono', mono;
   margin-left: 125px;
   margin-right: 125px;
   margin-top: 80px;
@@ -68,6 +72,10 @@ p{
   max-width: 1500px;
 }
 
+.link {
+  text-decoration: underline;
+   color: blue;
+}
 
 .dragme{
     position:absolute;
@@ -75,6 +83,10 @@ p{
     width: 25%;
     height: auto;
   }
+
+footer{
+   margin-bottom:80px;
+}
 
 #stamp{
   left: 125px;
