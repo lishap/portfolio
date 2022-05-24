@@ -49,6 +49,7 @@
   align-content: space-around;
   margin-right: 130px;
   font-size: 20px;
+  max-width: 1500px;
 }
 
 .profilePicture{

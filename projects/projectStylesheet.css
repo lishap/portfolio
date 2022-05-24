@@ -7,6 +7,7 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  z-index: 6;
 }
 
 .name {
@@ -65,11 +66,11 @@ a:hover {
 
 p{
   font-family: 'ApercuMono', mono;
-  margin-left: 125px;
-  margin-right: 125px;
-  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
   font-size: 18px;
-  max-width: 1500px;
+  max-width: 1000px;
 }
 
 .link {
@@ -86,6 +87,7 @@ p{
     cursor: move;
     width: 25%;
     height: auto;
+    z-index: 0;
   }
 
 footer{
