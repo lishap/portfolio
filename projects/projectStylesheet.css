@@ -71,6 +71,7 @@ p{
   margin-top: 40px;
   font-size: 18px;
   max-width: 1000px;
+  margin-bottom:40px;
 }
 
 .link {
@@ -87,7 +88,7 @@ p{
     cursor: move;
     width: 25%;
     height: auto;
-    z-index: 0;
+    z-index: 1;
   }
 
 footer{
