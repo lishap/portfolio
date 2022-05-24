@@ -1,3 +1,9 @@
+@font-face {
+  font-family:"ApercuMono";
+  src: url("https://lishap.github.io/portfolio/projects/ApercuMono.woff");
+}
+
+
 .header{
   display: flex;
   align-items: baseline;
@@ -70,5 +76,5 @@ a {
 
 
 p{
-  font-family: 'Work Sans';
+  font-family: 'ApercuMono';
 }
