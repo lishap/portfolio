@@ -83,6 +83,11 @@ p{
    text-align: center;
 }
 
+.linkText {
+  text-decoration: underline;
+   color: blue;
+}
+
 .dragme{
     position:absolute;
     cursor: move;
