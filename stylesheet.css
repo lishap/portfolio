@@ -1,3 +1,8 @@
+@font-face {
+  font-family:"ApercuMono";
+  src: url("https://lishap.github.io/portfolio/projects/ApercuMono.woff");
+}
+
 .icons{
   margin-right: 125px;
   margin-left: 125px;
@@ -170,4 +175,13 @@ a {
 .gobyworld{
   position: relative;
   text-align: center;
+}
+
+#popUp{
+  display: none;
+}
+
+#popUp:hover{
+  display: block;
+  font-family: 'ApercuMono';
 }
