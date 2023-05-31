@@ -34,11 +34,7 @@
     <video width="640" height="auto" class="center" controls autoplay="true" src="lookback.mov"></video>
       <p>
         <b>Song Lookback</b> is a web application that captures your portrait including your favorite song in a given month using p5.js and Spotify API.
-        <br><br>
-        Originally I wanted to use the Google Photos API to get photo metadata, and port that to Spotify API to play a user’s top track at the date photo was taken. Unfortunately, Spotify API only allows you to get user top tracks, compounded, for the past month, six months and all time.
-        They have ‘recently played tracks’, where you can input a UNIX timecode, but only for the last 50 songs. Additionally, Google Photos API only allows you to get metadata after using a media ID parameter. I wanted to extract exif data, locally within a familiar app like Google Photos, Instagram or iPhotos.
-        <br><br>
-        Instead, Song Lookback uses p5.js and clmTracker to capture the user's face. It uses Spotify API to get the user's top song of the month, and displays this on their head. Future iterations will include a toggleable disco mode, proper photo booth and scapbook gallery.
+         Song Lookback uses p5.js and clmTracker to capture the user's face. It uses Spotify API to get the user's top song of the month, and displays this on their head. Future iterations will include a toggleable disco mode, proper photo booth and scapbook gallery.
       </p>
   </body>
   <footer>
