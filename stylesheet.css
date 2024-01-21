@@ -61,6 +61,17 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 738px) {
+  .name{
+    font-size: 32px;
+    margin-right: 10%;
+  }
+
+  .contact{
+    font-size: 32px;
+  }
+}
+
 .contact:hover {
   color: black;
 }
