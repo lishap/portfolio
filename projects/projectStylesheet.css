@@ -42,15 +42,30 @@
 
   font-family: 'VT323';
   font-size: 48px;
+
   color: transparent;
 
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
   text-align: center;
-  transform: translate(-10%, -0%);
-
+  transform: translate(-10%, -0%)
 }
+
+@media screen and (max-width: 738px) {
+  .rainbowTitle{
+    font-size: 32px;
+  }
+
+  .name{
+    font-size: 32px;
+  }
+
+  .contact{
+    font-size: 32px;
+  }
+}
+
 
 .center {
   display: block;

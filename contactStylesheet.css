@@ -40,6 +40,17 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 738px) {
+  .name{
+    font-size: 32px;
+  }
+
+  .contact{
+    font-size: 32px;
+  }
+
+}
+
 .name:hover {
   color: black;
 }
@@ -53,11 +64,10 @@
 }
 
 .profilePicture{
-  width: 375px;
-  height: 375px;
+  width: 300px;
 
   margin-left: 126px;
-  margin-right: 26px;
+  margin-right: 30px;
 }
 .aboutText{
   flex-direction: column;
